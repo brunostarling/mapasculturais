@@ -4,10 +4,13 @@ $__process_assets = false;
 
 return [
     /* MAIN */
-    'themes.active' => 'MapasCulturais\Themes\BaseV1',
+    //'themes.active' => 'MapasCulturais\Themes\BaseV1',
+
+    'themes.active' => 'ThemeSabara',
+
     'app.mode' => $_ENV['APP_MODE'],
     'doctrine.isDev' => false, // deixe true somente se estiver trabalhando nos mapeamentos das entidades
-    'slim.debug' => true,
+    'slim.debug' => false,
     'cep.token' => '',
 
     /* SELOS */
